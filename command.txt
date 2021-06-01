@@ -56,7 +56,7 @@
 14. composer require doctrine/dbal
 15. php artisan make:seeder ConfigTableSeeder
     => composer dump-autoload
-    => php artisan db:seed --class=RoomTableSeeder
+    => php artisan db:seed --class=UsersTableSeeder
 
 1... composer dumpautoload
 1... php artisan storage:link
