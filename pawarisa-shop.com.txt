@@ -1,0 +1,43 @@
+
+sudo apt-get update
+
+sudo mkdir -p /var/www/pawarisa.shop.com
+
+cd /var/www/pawarisa.shop.com
+
+git clone https://github.com/oleylove/khaopanshop
+
+sudo chmod 775 -R khaopanshop
+
+cd khaopanshop
+
+sudo chmod 777 -R storage
+
+composer install OR apt composer install
+
+cp .env.example .env
+
+php artisan key:generate
+
+sudo cp /etc/apache2/sites-available/default.conf /etc/apache2/sites-available/pawarisa.shop.com.conf
+sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/pawarisa.shop.com
+
+nano /etc/apache2/sites-available/pawarisa.shop.com.conf
+nano /etc/apache2/sites-available/default.conf
+s
+<VirtualHost *:8090>
+ServerAdmin webmaster@localhost
+ServerName pawarisa.shop.com
+ServerAlias www.pawarisa.shop.com
+DocumentRoot /var/www/pawarisa.shop.com/khaopanshop/public
+<Directory /var/www/pawarisa.shop.com/khaopanshop/pulbic
+    AllowOverride All
+</Directory>
+ErrorLog /var/www/website1-example.com/error.log
+CustomLog /var/www/website1-example.com/access.log combined
+</VirtualHost>
+
+
+sudo a2ensite pawarisa.shop.com
+sudo a2enmod rewrite
+sudo service apache2 restart

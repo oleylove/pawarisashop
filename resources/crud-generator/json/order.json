@@ -1,0 +1,72 @@
+{
+    "fields": [
+        {
+            "name": "inc_id",
+            "type": "integer"
+        },
+        {
+            "name": "user_id",
+            "type": "integer"
+        },
+        {
+            "name": "shipping",
+            "type": "float"
+        },
+        {
+            "name": "price",
+            "type": "float"
+        },
+        {
+            "name": "disc",
+            "type": "float"
+        },
+        {
+            "name": "net",
+            "type": "float"
+        },
+        {
+            "name": "tracking",
+            "type": "string"
+        },
+        {
+            "name": "score_total",
+            "type": "integer"
+        },
+        {
+            "name": "status",
+            "type": "string"
+        },
+        {
+            "name": "slip",
+            "type": "file"
+        },
+        {
+            "name": "paid_at",
+            "type": "timestamp"
+        },
+        {
+            "name": "checking_at",
+            "type": "timestamp"
+        },
+        {
+            "name": "sent_at",
+            "type": "timestamp"
+        },
+        {
+            "name": "completed_at",
+            "type": "timestamp"
+        },
+        {
+            "name": "cancelled_at",
+            "type": "timestamp"
+        },
+        {
+            "name": "address",
+            "type": "text"
+        },
+        {
+            "name": "consignee",
+            "type": "string"
+        }
+    ]
+}

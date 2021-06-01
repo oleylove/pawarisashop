@@ -1,0 +1,71 @@
+{
+    "fields": [{
+            "name": "title",
+            "type": "string"
+        },
+        {
+            "name": "website",
+            "type": "string"
+        },
+        {
+            "name": "facebook",
+            "type": "string"
+        },
+        {
+            "name": "line",
+            "type": "string"
+        },
+        {
+            "name": "address",
+            "type": "text"
+        },
+        {
+            "name": "phone",
+            "type": "string"
+        },
+        {
+            "name": "freeshipping",
+            "type": "integer"
+        },
+        {
+            "name": "shipping",
+            "type": "integer"
+        },
+        {
+            "name": "bbl",
+            "type": "string"
+        },
+        {
+            "name": "bbl_logo",
+            "type": "file"
+        },
+        {
+            "name": "kbsnk",
+            "type": "string"
+        },
+        {
+            "name": "kbsnk_logo",
+            "type": "file"
+        },
+        {
+            "name": "scb",
+            "type": "string"
+        },
+        {
+            "name": "scb_logo",
+            "type": "file"
+        },
+        {
+            "name": "bay",
+            "type": "string"
+        },
+        {
+            "name": "bay_logo",
+            "type": "file"
+        },
+        {
+            "name": "logo",
+            "type": "file"
+        }
+    ]
+}

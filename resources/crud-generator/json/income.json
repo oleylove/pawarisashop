@@ -1,0 +1,16 @@
+{
+    "fields": [
+        {
+            "name": "date",
+            "type": "timestamp"
+        },
+        {
+            "name": "income",
+            "type": "float"
+        },
+        {
+            "name": "refer",
+            "type": "string"
+        }
+    ]
+}

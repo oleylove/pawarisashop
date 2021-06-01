@@ -1,0 +1,31 @@
+{
+    "fields": [{
+            "name": "user_id",
+            "type": "integer"
+        },
+        {
+            "name": "prod_id",
+            "type": "integer"
+        },
+        {
+            "name": "po_id",
+            "type": "integer"
+        },
+        {
+            "name": "qty",
+            "type": "integer"
+        },
+        {
+            "name": "price",
+            "type": "float"
+        },
+        {
+            "name": "disc",
+            "type": "float"
+        },
+        {
+            "name": "net",
+            "type": "float"
+        }
+    ]
+}

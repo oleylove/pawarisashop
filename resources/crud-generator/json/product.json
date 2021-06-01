@@ -1,0 +1,80 @@
+{
+    "fields": [
+        {
+            "name": "inc_id",
+            "type": "integer"
+        },
+        {
+            "name": "code",
+            "type": "string"
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "content",
+            "type": "text"
+        },
+        {
+            "name": "size",
+            "type": "string"
+        },
+        {
+            "name": "color",
+            "type": "string"
+        },
+        {
+            "name": "price",
+            "type": "float"
+        },
+        {
+            "name": "cost",
+            "type": "float"
+        },
+        {
+            "name": "disc",
+            "type": "float"
+        },
+        {
+            "name": "sold",
+            "type": "integer"
+        },
+        {
+            "name": "photo1",
+            "type": "file"
+        },
+        {
+            "name": "photo2",
+            "type": "file"
+        },
+        {
+            "name": "photo3",
+            "type": "file"
+        },
+        {
+            "name": "qty",
+            "type": "integer"
+        },
+        {
+            "name": "hot",
+            "type": "integer"
+        },
+        {
+            "name": "vote",
+            "type": "integer"
+        },
+        {
+            "name": "score",
+            "type": "integer"
+        },
+        {
+            "name": "rating",
+            "type": "float"
+        },
+        {
+            "name": "status",
+            "type": "string"
+        }
+    ]
+}

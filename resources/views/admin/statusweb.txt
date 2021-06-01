@@ -1,0 +1,12 @@
+
+
+Status Order
+1. รอตรวจสอบ paid_at
+
+2. รอจัดส่ง checking_at
+
+3. จัดส่งแล้ว sent_at
+
+4. ได้รับสินค้าแล้ว completed_at
+
+5. ยกเลิก cancelled_at

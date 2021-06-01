@@ -1,0 +1,33 @@
+Crud Generator
+php artisan migrate
+composer dumpautoload
+php artisan db:seed --class=UsersTableSeeder
+
+=> php artisan make:seeder UserTableSeeder
+        => composer dump-autoload
+        => php artisan db:seed --class=UserTableSeeder
+
+php artisan crud:generate Category --fields_from_file="resources/crud-generator/json/category.json"
+    => php artisan make:seeder CategoryTableSeeder
+            => composer dump-autoload
+            => php artisan db:seed --class=CategoryTableSeeder
+
+php artisan crud:generate Order --fields_from_file="resources/crud-generator/json/order.json"
+php artisan crud:generate Payment --fields_from_file="resources/crud-generator/json/payment.json"
+php artisan crud:generate Product --fields_from_file="resources/crud-generator/json/product.json"
+php artisan crud:generate Profile --fields_from_file="resources/crud-generator/json/profile.json"
+php artisan crud:generate Vote --fields_from_file="resources/crud-generator/json/vote.json"
+php artisan crud:generate Review --fields_from_file="resources/crud-generator/json/review.json"
+php artisan crud:generate OrderProduct --fields_from_file="resources/crud-generator/json/orderProduct.json"
+php artisan crud:generate CategorySub --fields_from_file="resources/crud-generator/json/categorySub.json"
+php artisan crud:generate Income --fields_from_file="resources/crud-generator/json/Income.json"
+php artisan crud:generate Like --fields_from_file="resources/crud-generator/json/like.json"
+
+
+php artisan crud:generate Config --fields_from_file="resources/crud-generator/json/config.json"
+    => php artisan make:seeder ConfigTableSeeder
+            => composer dump-autoload
+            => php artisan db:seed --class=ConfigTableSeeder
+
+
+

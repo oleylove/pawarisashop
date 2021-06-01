@@ -1,0 +1,15 @@
+{
+    "fields": [{
+            "name": "user_id",
+            "type": "integer"
+        },
+        {
+            "name": "prod_id",
+            "type": "integer"
+        },
+        {
+            "name": "likes",
+            "type": "integer"
+        }
+    ]
+}
