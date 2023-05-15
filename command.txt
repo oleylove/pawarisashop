@@ -57,6 +57,7 @@
 15. php artisan make:seeder ConfigTableSeeder
     => composer dump-autoload
     => php artisan db:seed --class=UsersTableSeeder
+    => php artisan db:seed --class=UsersTableSeeder
 
 1... composer dumpautoload
 1... php artisan storage:link
@@ -66,7 +67,16 @@ LoadProject
 composer install
 copy .env.example .env
 php artisan key:generate
+php artisan storage:link
+php artisan migrate
+14. composer require doctrine/dbal
+15. php artisan make:seeder ConfigTableSeeder
+    => composer dump-autoload
+    => php artisan db:seed --class=ConfigTableSeeder
+    => php artisan db:seed --class=UsersTableSeeder
 
+1... composer dumpautoload
+1... php artisan storage:link
 
 
 

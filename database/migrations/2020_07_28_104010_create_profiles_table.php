@@ -16,7 +16,7 @@ class CreateProfilesTable extends Migration
         Schema::create('profiles', function (Blueprint $table) {
             $table->collation = 'utf8_unicode_ci';
             $table->charset = 'utf8';
-            $table->bigIncrements('id')->nullable()->comment('รหัสโปรไฟล์');
+            $table->bigIncrements('id')->comment('รหัสโปรไฟล์');
             $table->integer('user_id')->nullable()->comment('รหัสลูกค้า');
             $table->string('name',150)->nullable()->comment('ชื่อลูกค้า');
             $table->string('phone',12)->nullable()->comment('เบอร์โทร');
